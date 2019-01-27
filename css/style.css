@@ -695,8 +695,8 @@ div.intro {
 .skill-mf .progress {
   background-color: #f5dcdc;
   margin: .5rem 0 1.2rem 0;
-  border-radius: 0;
-  height: .7rem;
+  border-radius: 15;
+  height: .5rem;
 }
 
 .skill-mf .progress .progress-bar {
