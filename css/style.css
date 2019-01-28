@@ -438,6 +438,7 @@ div.intro {
   bottom: 0;
   left: 0;
   height: 2px;
+  color: red;
   transition: all 500ms ease;
 }
 
@@ -463,7 +464,7 @@ div.intro {
 }
 
 .navbar-b.navbar-trans .nav-link:before {
-  background-color: #fff;
+  background-color: #dd0000;
 }
 
 .navbar-b.navbar-trans .nav-link:hover {
@@ -635,6 +636,7 @@ div.intro {
 .intro .intro-subtitle {
   font-size: 1.5rem;
   font-weight: 300;
+  color: #fff;
 }
 
 .intro .text-slider-items {
