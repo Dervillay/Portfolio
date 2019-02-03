@@ -133,6 +133,12 @@ div.intro {
   padding-top: 4rem;
 }
 
+.sect-starfield {
+  padding-top: 5rem;
+  text-align: center;
+  background-color: black;
+}
+
 .sect-mt4 {
   margin-top: 4rem;
 }
@@ -161,6 +167,14 @@ div.intro {
   color: #4e4e4e;
 }
 
+.subtitle-p {
+  color: #fff;
+}
+
+.subtitle-p-sf {
+  color: #a0a0a0;
+}
+
 .line-mf {
   width: 40px;
   height: 5px;
@@ -180,6 +194,15 @@ div.intro {
 }
 
 .title-left:before {
+  content: '';
+  position: absolute;
+  height: 3px;
+  background-color: #dd0000;
+  width: 100px;
+  bottom: -12px;
+}
+
+.title-left-sf {
   content: '';
   position: absolute;
   height: 3px;
