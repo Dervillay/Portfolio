@@ -240,7 +240,7 @@ div.intro {
   margin-bottom: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;
-  margin-top: 1rem;
+  margin-top: 3rem;
   z-index: 2;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
@@ -1142,7 +1142,7 @@ div.intro {
 }
 
 .footer-paralax-sf {
-  padding: 1.25rem 0 0 0;  
+  padding: 1.25rem 0 0 0;
 }
 
 .contact-mf {
@@ -1328,6 +1328,11 @@ footer .credits a {
   .box-comments .list-comments .comment-author {
     font-size: 1.5rem;
   }
+}
+
+.bg-trans {
+  background: rgba(0, 0, 0, 0.6);
+
 }
 
 @media (min-width: 992px) {
