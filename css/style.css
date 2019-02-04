@@ -133,14 +133,21 @@ div.intro {
   padding-top: 4rem;
 }
 
+.sect-sf {
+  padding-top: 2rem;
+}
+
 .sect-starfield {
-  padding-top: 5rem;
+  padding-top: 0rem;
   text-align: center;
-  background-color: black;
 }
 
 .sect-mt4 {
   margin-top: 4rem;
+}
+
+.sect-hyperlink {
+  color: #919191;
 }
 
 /*--/ Title s /--*/
@@ -172,7 +179,7 @@ div.intro {
 }
 
 .subtitle-p-sf {
-  color: #a0a0a0;
+  color: #383838;
 }
 
 .line-mf {
@@ -226,6 +233,25 @@ div.intro {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
+.box-shadow-sf {
+  padding: 1rem 1.25rem;
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  z-index: 2;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.black-bg {
+  background-color: #000;
+}
+
+.grey-bg {
+  background-color: #3a3a3a;
+}
 /*------/ Socials /------*/
 
 .socials {
@@ -432,6 +458,13 @@ div.intro {
   background-color: transparent;
   padding-top: 1.563rem;
   padding-bottom: 1.563rem;
+}
+
+.navbar-b.sf {
+  transition: all .5s ease-in-out;
+  background-color: #1b1b1b;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .navbar-b.navbar-reduce {
@@ -705,6 +738,11 @@ div.intro {
   padding-bottom: 4rem;
 }
 
+.about-sf {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
 .about-mf .about-img {
   margin-bottom: 2rem;
 }
@@ -738,6 +776,15 @@ div.intro {
   padding: 2.5rem 1.3rem;
   border-radius: 1rem;
   margin-bottom: 3rem;
+}
+
+.service-box-sf {
+  background-color: #8e8e8e;
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+  padding-top: 6rem;
 }
 
 .service-box:hover .ico-circle {
@@ -847,6 +894,10 @@ div.intro {
 
 .w-title {
   font-size: 1.2rem;
+}
+
+.filled-in {
+  background-color: #1b1b1b;
 }
 
 /*======================================

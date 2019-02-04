@@ -3,7 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>StarField</title>
+
+    <!-- Importing libraries and code -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/p5.js"></script>
     <script src="starfield.js"></script>
     <script src="index.js"></script>
@@ -21,46 +24,68 @@
     <!-- Main Stylesheet File -->
     <link href="css/style.css" rel="stylesheet">
 
+    <!-- Browser icon -->
     <link href="img/apple-touch-icon.png" rel="icon">
-  </head>
-  <body>
 
-    <nav class="navbar-b fixed-top" id="mainNav">
+  </head>
+  <body style="background-image: url(img/intro-bg.jpg)">
+
+    <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll" href="index.html">Return to Dervillay.com</a>
+        <a class="navbar-brand js-scroll" href="#page-top">Dervillay.com</a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+          aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
         <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link js-scroll" href="index.html">Home</a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
 
-  <div class="sect-starfield">
-  <h1 class="subtitle-p">
-      Welcome to StarField.
-  </h1 class="subtitle-p-sf">
-    <p class="subtitle-p-sf">
-      Hold left click to accelerate through the void of space, or release to have a look around.
-      Hovering over stars and planets will reveal their names (assuming object labelling is turned on).<br>
-      Using the sliders and buttons below, you can customise the StarField. Press Generate to create a new instance with your chosen parameters.<br>
-      Try resizing the window you're viewing this in, each StarField adapts dynamically to fill the screen. <br>
-      (Note that Object Labelling will not work when the StarField is drawn onto a 3D shape)<br><br>
-      <a href="https://github.com/Dervillay" class="subtitle-p-sf">Click here for the full code and documentation</a>
-    </p>
-    <span class="subtitle-p-sf">
-      Star Density <input type="range" min="0" max="2000" value="400" class="slider" id="starDensity">
-      &nbsp;&nbsp;&nbsp;&nbsp;
-      Planet Density <input type="range" min="0" max="2000" value="40" class="slider" id="planetDensity">
-      &nbsp;&nbsp;&nbsp;&nbsp;
-      Max Speed <input type="range" min="1" max="100" value="70" class="slider" id="maxSpeed">
-      &nbsp;&nbsp;&nbsp;&nbsp;
-      Object Labelling <input type="checkbox" id="labellingOn">
-      &nbsp;&nbsp;&nbsp;&nbsp;
-      Draw on Cube <input type="checkbox" id="drawBox">
-      &nbsp;&nbsp;&nbsp;&nbsp;
-      Draw on Sphere <input type="checkbox" id="drawSphere">
-      &nbsp;&nbsp;&nbsp;&nbsp;
-    <button id="generate">Generate</button>
-  </span>
-  </div>
+
+      <section class="about-sf sect-sf route">
+        <div class="container">
+              <div class="box-shadow-sf">
+                      <div class="title-box-2">
+                        <h5 class="title-left">
+                          StarField
+                        </h5>
+                      </div>
+                        <p class="subtitle-p-sf">
+                          Hold left click to accelerate through the void of space, or release to have a look around.
+                          Hovering over stars and planets will reveal their names (assuming object labelling is turned on).<br>
+                          Using the sliders and buttons below, you can customise the StarField. Press Generate to create a new instance with your chosen parameters.<br>
+                          Try resizing the window you're viewing this in, each StarField adapts dynamically to fill the screen. <br>
+                          (Note that Object Labelling will not work when the StarField is drawn onto a 3D shape)<br><br>
+                          Click <a href="https://github.com/Dervillay/StarField" class="sect-hyperlink">here</a> for the full code and documentation.
+                        </p>
+                        <span class="subtitle-p-sf">
+                          Star Density <input type="range" min="0" max="2000" value="400" class="slider" id="starDensity">
+                          &nbsp;&nbsp;&nbsp;&nbsp;
+                          Planet Density <input type="range" min="0" max="2000" value="40" class="slider" id="planetDensity">
+                          &nbsp;&nbsp;&nbsp;&nbsp;
+                          Max Speed <input type="range" min="1" max="100" value="70" class="slider" id="maxSpeed">
+                          &nbsp;&nbsp;&nbsp;&nbsp;
+                          Object Labelling <input type="checkbox" id="labellingOn">
+                          &nbsp;&nbsp;&nbsp;&nbsp;
+                          Draw on Cube <input type="checkbox" id="drawBox">
+                          &nbsp;&nbsp;&nbsp;&nbsp;
+                          Draw on Sphere <input type="checkbox" id="drawSphere">
+                          &nbsp;&nbsp;&nbsp;&nbsp;
+                        <button id="generate">Generate</button>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      </section>
     <script>
       var starDensity = document.getElementById("starDensity").value;
       var planetDensity = document.getElementById("planetDensity").value;
