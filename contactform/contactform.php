@@ -16,10 +16,10 @@
   $message_title = "Message:";
 
   // Error messages
-  $contact_error_name = "Name is too short or empty!";
-  $contact_error_email = "Please enter a valid email!";
-  $contact_error_subject = "Subject is too short or empty!";
-  $contact_error_message = "Message is too short! Please enter something.";
+  $contact_error_name = "Name is too short or empty, please enter something longer";
+  $contact_error_email = "Please enter a valid email";
+  $contact_error_subject = "Subject is too short or empty, please enter something longer.";
+  $contact_error_message = "Your message is too short, please enter something longer.";
 
 /********** Do not edit from the below line ***********/
 
@@ -34,7 +34,7 @@
     $subject = filter_var($_POST["subject"], FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
     $message = filter_var($_POST["message"], FILTER_SANITIZE_STRING);
 
-    if(!$contact_email_to || $contact_email_to == 'james.gascoigneburns7@gmail.com') {
+    if(!$contact_email_to || $contact_email_to == 'contact@example.com') {
       die('The contact form receiving email address is not configured!');
     }
 
