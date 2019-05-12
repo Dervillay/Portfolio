@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Forum API</title>
+
+    <!-- Importing libraries and code -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/p5.js"></script>
+    <script src="starfield.js"></script>
+    <script src="index.js"></script>
+
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Libraries CSS Files -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Browser icon -->
+    <link href="img/apple-touch-icon.png" rel="icon">
+  </head>
+  <body style="background-image: url(img/intro-bg.jpg)" onload="loader()" class="paralax-mf footer-paralax-sf bg-image route">
+    <nav class="navbar navbar-b navbar-trans bg-trans navbar-expand-md fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll" href="index.html">Dervillay.com</a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+          aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link js-scroll" href="index.html">Home</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+      <section class="about-sf sect-sf route">
+        <div class="container">
+              <div class="box-shadow-sf">
+                      <div class="title-box-2">
+                        <h5 class="title-left">
+                          Forum API
+                        </h5>
+                      </div>
+                        <p class="subtitle-p-sf">
+                          Forum is a Node.js service that allows users to create accounts and post messages, incorporating an optional Google sign-in,
+                          JavaScript web tokens for authentication and BCrypt for handling and storing user passwords safely.
+                          <br>
+                          <br>
+                          <h6 class="subtitle-left">
+                            Test It Out
+                          </h6>
+                          <br>
+                          An interactive version of the API is hosted live <a href="https://forumprogproject.herokuapp.com" class="sect-hyperlink">here</a>
+                          <br>
+                          <br>
+                          <h6 class="subtitle-left">
+                            View it on GitHub
+                          </h6>
+                          <br>
+                          The code, instructions for use and documentation are on my GitHub <a href="https://github.com/Dervillay/Forum" class="sect-hyperlink">here</a>.
+                        </p>
+                    </div>
+                  </div>
+      </section>
+    <script>
+      function loader() {
+        setTimeout(showPage, 500);
+      }
+
+      function showPage() {
+        document.getElementById("preloader").style.display = "none";
+      }
+
+      document.getElementById("generate").addEventListener("click", generate);
+    </script>
+    <div id="preloader"></div>
+  </body>
+</html>
