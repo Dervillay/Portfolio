@@ -200,7 +200,12 @@ div.intro {
   position: relative;
 }
 
-.title-left:before {
+.subtitle-left {
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.title-left:before, .subtitle-left:before {
   content: '';
   position: absolute;
   height: 3px;
