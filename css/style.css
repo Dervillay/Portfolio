@@ -214,7 +214,7 @@ div.intro {
   bottom: -12px;
 }
 
-.title-left-sf {
+.title-left-sf, subtitle-left:before {
   content: '';
   position: absolute;
   height: 3px;
