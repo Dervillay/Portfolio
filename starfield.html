@@ -30,7 +30,7 @@
   <body style="background-image: url(img/intro-bg.jpg)" onload="loader()" class="paralax-mf footer-paralax-sf bg-image route">
     <nav class="navbar navbar-b navbar-trans bg-trans navbar-expand-md fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll" href="index.html">JamesGB.co.uk</a>
+        <a class="navbar-brand js-scroll" href="index.html#portfolio">JamesGB.co.uk</a>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
           aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
           <span></span>
@@ -40,7 +40,7 @@
         <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link js-scroll" href="index.html">Home</a>
+              <a class="nav-link js-scroll" href="index.html#portfolio">Home</a>
             </li>
           </ul>
         </div>
@@ -66,7 +66,7 @@
                             View it on GitHub
                           </h6>
                           <br>
-                          Click <a href="https://github.com/Dervillay/StarField" class="sect-hyperlink">here</a> for the full code and documentation.
+                          Click <a href="https://github.com/Dervillay/StarField" target="_blank" class="sect-hyperlink">here</a> for the full code and documentation.
                         <br>
                         <br>
                         <h5 class="subtitle-left">
@@ -86,7 +86,7 @@
                           &nbsp;&nbsp;&nbsp;&nbsp;
                           Draw on Sphere <input type="checkbox" id="drawSphere">
                           &nbsp;&nbsp;&nbsp;&nbsp;
-                        <button id="generate">Generate</button>
+                        <a class="js-scroll" href="#starfield"><button id="generate">Generate</button></a>
                       </span>
                     </div>
                   </div>
@@ -128,6 +128,23 @@
 
       document.getElementById("generate").addEventListener("click", generate);
     </script>
+    <div name="starfield">
     <div id="preloader"></div>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/popper/popper.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/counterup/jquery.waypoints.min.js"></script>
+    <script src="lib/counterup/jquery.counterup.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+
+    <!-- Template Main Javascript File -->
+    <script src="js/main.js"></script>
   </body>
 </html>
