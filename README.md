@@ -1,2 +1,4 @@
 # Portfolio
-A portfolio website adapted from a bootstrap template, currently being hosted at [jamesgb.co.uk](http://www.jamesgb.co.uk/)
+A portfolio website based on a bootstrap template, currently hosted at [jamesgb.co.uk](http://www.jamesgb.co.uk/)
+
+![](portfolio-demo.gif)
