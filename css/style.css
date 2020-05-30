@@ -18,7 +18,7 @@ a {
 }
 
 a:hover {
-  color: #dd0000;
+  color: #000000;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -32,7 +32,7 @@ div.intro {
 }
 
 .color-a {
-  color: #dd0000;
+  color: #000000;
 }
 
 .color-d {
@@ -83,7 +83,7 @@ div.intro {
 }
 
 .overlay-mf {
-  background-color: #dd0000;
+  background-color: #000000;
 }
 
 .overlay-mf {
@@ -174,7 +174,7 @@ div.intro {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #dd0000;
+  background-color: #CCCCCC;
   margin: 0 auto;
 }
 
@@ -198,7 +198,7 @@ div.intro {
   content: '';
   position: absolute;
   height: 3px;
-  background-color: #dd0000;
+  background-color: #CCCCCC;
   width: 100px;
   bottom: -12px;
 }
@@ -207,7 +207,7 @@ div.intro {
   content: '';
   position: absolute;
   height: 3px;
-  background-color: #dd0000;
+  background-color: #CCCCCC;
   width: 100px;
   bottom: -12px;
 }
@@ -263,14 +263,14 @@ div.intro {
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #dd0000;
+  box-shadow: 0 0 0 3px #000000;
   transition: all 500ms ease;
 }
 
 .socials .ico-circle:hover {
-  background-color: #dd0000;
+  background-color: #EEEEEE;
   color: #fff;
-  box-shadow: 0 0 0 3px #f5dcdc;
+  box-shadow: 0 0 0 3px #dcdcdc;
   transition: all 500ms ease;
 }
 
@@ -293,7 +293,7 @@ div.intro {
 }
 
 .list-ico span {
-  color: #dd0000;
+  color: #000000;
   margin-right: 10px;
 }
 
@@ -307,7 +307,7 @@ div.intro {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #dd0000;
+  box-shadow: 0 0 0 10px #000000;
   display: block;
 }
 
@@ -326,15 +326,15 @@ div.intro {
   width: 18px;
   height: 7px;
   margin: 5px 5px;
-  background: #f5dcdc;
-  border: 0px solid #f5dcdc;
+  background: #dcdcdc;
+  border: 0px solid #dcdcdc;
   display: block;
   transition: all 0.6s ease-in-out;
   cursor: pointer;
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
-  background-color: #f5dcdc;
+  background-color: #dcdcdc;
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
@@ -354,7 +354,7 @@ div.intro {
   position: fixed;
   width: 42px;
   height: 42px;
-  background-color: #dd0000;
+  background-color: #cccccc;
   opacity: .7;
   font-size: 1.6rem;
   line-height: 1.5;
@@ -373,7 +373,7 @@ div.intro {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #dd0000;
+  background: #000000;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -411,7 +411,7 @@ div.intro {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #dd0000;
+  border-top: 6px solid #CCCCCC;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -514,7 +514,7 @@ div.intro {
 }
 
 .navbar-b.navbar-trans .nav-link:before {
-  background-color: #dd0000;
+  background-color: #CCCCCC;
 }
 
 .navbar-b.navbar-trans .nav-link:hover {
@@ -536,26 +536,26 @@ div.intro {
 }
 
 .navbar-b.navbar-reduce .nav-link {
-  color: #dd0000;
+  color: #CCCCCC;
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
-  background-color: #dd0000;
+  background-color: #AAAAAA;
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #dd0000;
+  color: #CCCCCC;
 }
 
 .navbar-b.navbar-reduce .show > .nav-link,
 .navbar-b.navbar-reduce .active > .nav-link,
 .navbar-b.navbar-reduce .nav-link.show,
 .navbar-b.navbar-reduce .nav-link.active {
-  color: #dd0000;
+  color: #000000;
 }
 
 .navbar-b.navbar-reduce .navbar-brand {
-  color: #dd0000;
+  color: #000000;
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
@@ -587,13 +587,13 @@ div.intro {
 }
 
 .navbar-b .dropdown-menu .dropdown-item:hover {
-  background-color: #dd0000;
+  background-color: #000000;
   color: #fff;
   transition: all 500ms ease;
 }
 
 .navbar-b .dropdown-menu .dropdown-item.active {
-  background-color: #dd0000;
+  background-color: #000000;
 }
 
 /*--/ Hamburger Navbar /--*/
@@ -708,15 +708,15 @@ div.intro {
 
 .intro-single .breadcrumb {
   background-color: transparent;
-  color: #dd0000;
+  color: #000000;
 }
 
 .intro-single .breadcrumb .breadcrumb-item:before {
-  color: #f5dcdc;
+  color: #dcdcdc;
 }
 
 .intro-single .breadcrumb .breadcrumb-item.active {
-  color: #f5dcdc;
+  color: #dcdcdc;
 }
 
 .intro-single .breadcrumb a {
@@ -750,7 +750,7 @@ div.intro {
 }
 
 .skill-mf .progress {
-  background-color: #f5dcdc;
+  background-color: #dcdcdc;
   margin: .5rem 0 1.2rem 0;
   border-radius: 15;
   height: .5rem;
@@ -758,7 +758,7 @@ div.intro {
 
 .skill-mf .progress .progress-bar {
   height: .7rem;
-  background-color: #dd0000;
+  background-color: #000000;
 }
 
 /*======================================
@@ -784,8 +784,8 @@ div.intro {
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
-  background-color: #dd0000;
-  box-shadow: 0 0 0 10px #f5dcdc;
+  background-color: #CCCCCC;
+  box-shadow: 0 0 0 10px #dcdcdc;
 }
 
 .service-box .service-ico {
@@ -864,22 +864,22 @@ div.intro {
 }
 
 .work-content .w-more {
-  color: #4e4e4e;
+  color: #888888;
   font-size: .8rem;
 }
 
 .work-content .w-more .w-ctegory {
-  color: #dd0000;
+  color: #000000;
 }
 
 .work-content .w-like {
   font-size: 2.5rem;
-  color: #dd0000;
+  color: #000000;
   float: right;
 }
 
 .work-content .w-like a {
-  color: #dd0000;
+  color: #000000;
 }
 
 .work-content .w-like .num-like {
@@ -926,7 +926,7 @@ div.intro {
 
 .testimonial-box .comit {
   font-size: 2rem;
-  color: #dd0000;
+  color: #000000;
   background-color: #fff;
   width: 52px;
   height: 52px;
@@ -959,7 +959,7 @@ div.intro {
   color: #fff;
   padding: 0 15px 5px;
   overflow: hidden;
-  background-color: #dd0000;
+  background-color: #000000;
   border-radius: 4px;
 }
 
@@ -1013,7 +1013,7 @@ div.intro {
 }
 
 .blog-wrapper .post-meta ul {
-  border-left: 4px solid #dd0000;
+  border-left: 4px solid #000000;
   margin-top: 1rem;
 }
 
@@ -1023,7 +1023,7 @@ div.intro {
 }
 
 .blog-wrapper .post-meta ul a {
-  color: #dd0000;
+  color: #000000;
 }
 
 .blog-wrapper .post-meta ul span {
@@ -1031,7 +1031,7 @@ div.intro {
 }
 
 .blog-wrapper .blockquote {
-  border-left: 4px solid #dd0000;
+  border-left: 4px solid #000000;
   padding: 18px;
   font-style: italic;
 }
@@ -1063,7 +1063,7 @@ div.intro {
 }
 
 .box-comments .list-comments a {
-  color: #dd0000;
+  color: #5a5a5a;
 }
 
 .box-comments .list-comments span {
@@ -1080,7 +1080,7 @@ div.intro {
 .widget-sidebar .sidebar-title {
   font-size: 1.6rem;
   font-weight: 600;
-  border-left: 5px solid #dd0000;
+  border-left: 5px solid #000000;
   padding-left: 15px;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
@@ -1097,7 +1097,7 @@ div.intro {
   width: 10px;
   height: 1px;
   left: 0;
-  background-color: #dd0000;
+  background-color: #000000;
   top: 20px;
 }
 
@@ -1108,8 +1108,8 @@ div.intro {
 }
 
 .sidebar-search .btn-search {
-  background-color: #dd0000;
-  border-color: #dd0000;
+  background-color: #000000;
+  border-color: #000000;
   border-radius: 0;
   padding-left: 20px;
   padding-right: 20px;
@@ -1117,7 +1117,7 @@ div.intro {
 
 .widget-tags ul li {
   display: inline-block;
-  background-color: #dd0000;
+  background-color: #000000;
   padding: .2rem .6rem;
   margin-bottom: .5rem;
   border-radius: 15px;
@@ -1170,8 +1170,8 @@ footer .credits a {
 ======================================*/
 
 #sendmessage {
-  color: #dd0000;
-  border: 1px solid #dd0000;
+  color: #000000;
+  border: 1px solid #000000;
   display: none;
   text-align: center;
   padding: 15px;
@@ -1228,15 +1228,15 @@ footer .credits a {
 }
 
 .button:hover {
-  background-color: #9c0d0d;
+  background-color: #555555;
   color: #fff;
   transition: all 500ms ease;
 }
 
 .button-a {
-  background-color: #dd0000;
+  background-color: #000000;
   color: #fff;
-  border-color: #f5dcdc;
+  border-color: #eeeeee;
 }
 
 .button-big {
