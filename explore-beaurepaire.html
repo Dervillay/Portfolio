@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Explore Beaurepaire</title>
+
+  <!-- Importing libraries and code -->
+  
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Browser icon -->
+  <link href="img/favicon.png" rel="icon">
+</head>
+
+<body style="background-image: url(img/intro-bg.jpg)" onload="loader()" class="paralax-mf footer-paralax-sf bg-image route">
+  <nav class="navbar navbar-b navbar-trans bg-trans navbar-expand-md fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll" href="index.html#portfolio">JamesGB.co.uk</a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href="index.html#portfolio">Home</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="about-sf sect-sf route">
+    <div class="container">
+      <div class="box-shadow-sf">
+        <div class="title-box-2">
+          <h5 class="title-left">
+            Explore Beaurepaire - Group Project
+          </h5>
+        </div>
+        <p class="subtitle-p-sf">
+          For my second year software engineering module, I worked as part of an Agile team with 5 other students to create a mobile-friendly web-app for a local charity.
+          <br>
+          <br>
+          The brief was to create an interactive system allowing visitors to the Beaurepaire manor heritage site to explore the site digitally, in the aim of increasing awareness of its cultural significance.
+          The system was designed to allow members of the charity to easily access and edit aspects of the system, including informative, interactive sections on a 3D map. 
+          <br>
+          <br>
+        </p>
+        <h6 class="subtitle-left">
+          GitHub and Live System
+        </h6>
+        <p>
+          <br>
+          More information about the system and it's code can be seen on GitHub <a href="https://github.com/TheFullTru7h/Beaurepaire-Team-Project" target="_blank" class="sect-hyperlink">here</a>.
+          <br>
+          <br>
+          The system is currently being hosted and in use at <a href="http://explore-beaurepaire.herokuapp.com/" target="_blank" class="sect-hyperlink">explore-beaurepaire.com</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/popper/popper.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/counterup/jquery.waypoints.min.js"></script>
+  <script src="lib/counterup/jquery.counterup.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/typed/typed.min.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+  <script>
+    function loader() {
+      setTimeout(showPage, 500);
+    }
+
+    function showPage() {
+      document.getElementById("preloader").style.display = "none";
+    }
+
+  </script>
+  <div id="preloader"></div>
+</body>
+
+</html>
